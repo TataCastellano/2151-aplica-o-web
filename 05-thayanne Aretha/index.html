@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floricultura Bela Flor</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Bela Flor</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#products">Produtos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cadastro.html">Cadastro</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Carousel -->
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/container 3.jpeg" class="d-block w-100" alt="Promoção de Rosas">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Promoção de Rosas</h5>
+                <p>As melhores rosas com desconto especial.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/tropicais.jpeg" class="d-block w-100" alt="Flores Tropicais">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Flores Tropicais</h5>
+                <p>Beleza exótica para o seu jardim.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/conteiner 1.jpeg" class="d-block w-100" alt="Buquês Especiais">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Buquês Especiais</h5>
+                <p>Buquês para todas as ocasiões.</p>
+            </div>
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="img/painel 1.jpeg" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+
+<!-- Produtos -->
+<section id="products" class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/vermelha.jpeg" class="card-img-top" alt="Rosas Vermelhas">
+                <div class="card-body">
+                    <h5 class="card-title">Rosas Vermelhas</h5>
+                    <p class="card-text">Um clássico que nunca sai de moda.</p>
+                    <a href="#" class="btn btn-primary">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/branca.jpeg" class="card-img-top" alt="Orquídeas Brancas">
+                <div class="card-body">
+                    <h5 class="card-title">Orquídeas Brancas</h5>
+                    <p class="card-text">Elegância e sofisticação em cada pétala.</p>
+                    <a href="#" class="btn btn-primary">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="img/campo.jpeg" class="card-img-top" alt="Flores do Campo">
+                <div class="card-body">
+                    <h5 class="card-title">Flores do Campo</h5>
+                    <p class="card-text">Beleza natural e espontânea para qualquer ambiente.</p>
+                    <a href="#" class="btn btn-primary">Comprar Agora</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Link para Aplicação -->
+<div class="text-center mt-5">
+    <a href="sua-aplicacao.html" class="btn btn-success">Acesse a Aplicação</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
